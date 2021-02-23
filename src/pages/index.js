@@ -8,9 +8,9 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Quality accounting, tax services, bookkeeping, and business services at an affordable cost and with the utmost integrity.</h1>
+    <p>VHA Accounting Solutions' primary focus is forging healthy client relationships. We posess unsurpassed expertise, integrated with the capacity to offer our valued clients an unparalleled customer experience.</p>
+    <p>Professional applications of decisive strategic advice affords us the privledge to provide our clients with the best possible professional accounting solutions.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
