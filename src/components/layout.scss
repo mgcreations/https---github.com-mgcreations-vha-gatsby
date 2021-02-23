@@ -24,13 +24,6 @@ body {
   line-height: 1.5;
 }
 
-/* Sets the width of the site too 100% for smaller screen */
-@media only screen and (max-width: 1025px) {
-  body {
-    width: 100%;
-  }
-}
-
 /* Some default styling */
 
 img {
@@ -142,7 +135,10 @@ p {
 
 .main {
   grid-area: main;
-  margin-top: 100px;
+  margin-top: 70px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {

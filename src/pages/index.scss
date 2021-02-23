@@ -1,0 +1,40 @@
+.hero-box {
+  background-image: url("./page-images/glasses-calculator-tablet-white-neat-desk.jpg");
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  position: relative;
+  border-radius: 20px;
+}
+
+.hero-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(4, 144, 160, 0.65);
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-text {
+  width: 50%;
+  margin-left: 50px;
+  margin-right: 20px;
+  color: #0e2c57;
+}
+
+.hero-text h1 {
+  font-size: 1.5em;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}

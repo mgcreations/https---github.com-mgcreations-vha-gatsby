@@ -29,24 +29,17 @@ const Layout = ({ children }) => {
     <>
       <Hero />
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      
         <main className="main">{children}</main>
         <footer
           style={{
-            marginTop: `2rem`,
+            marginTop: `1rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Developed by
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://www.mgcreations.co.za">MG Creations</a>
         </footer>
-      </div>
     </>
   )
 }
