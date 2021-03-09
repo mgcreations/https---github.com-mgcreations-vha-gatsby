@@ -1,3 +1,10 @@
+/* Variables */
+
+$primary-color: #333;
+$primary-background: #fff;
+$icon-color: #e55013;
+$dark-blue: #184b95;
+
 .hero-box {
   background-image: url("./page-images/glasses-calculator-tablet-white-neat-desk.jpg");
   width: 100%;
@@ -35,6 +42,25 @@
 
 .services {
   display: grid;
+  grid-gap: 50px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  padding: 100px 50px;
+}
+
+.service-box {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.service-icon {
+  color: $icon-color;
+}
+
+.service-box h3 {
+  font-size: 1.5em;
+  color: $dark-blue;
 }

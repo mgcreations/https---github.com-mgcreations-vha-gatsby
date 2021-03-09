@@ -1,11 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faChartPie, faCoins, faFileContract,
+} from "@fortawesome/free-solid-svg-icons"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 import "./index.scss"
+import { faUniregistry } from "@fortawesome/free-brands-svg-icons"
 
 const IndexPage = () => (
   <Layout>
@@ -21,16 +25,21 @@ const IndexPage = () => (
     
     </div>
     <div className={"services"}>
-      <div>
-        <h3>Accounting Services</h3>
+    <div className={"service-box"}>
+    <FontAwesomeIcon className={"service-icon"} icon={faChartPie} size="4x" />
+    <h3>Accounting Services</h3>
       </div>
-      <div>
+      
+      <div className={"service-box"}>
+      <FontAwesomeIcon className={"service-icon"} icon={faCoins} size="4x" />
         <h3>Tax Services</h3>
       </div>
-      <div>
+      <div className={"service-box"}>
+      <FontAwesomeIcon className={"service-icon"} icon={faFileContract} size="4x" />
         <h3>Income Tax Returns</h3>
       </div>
-      <div>
+      <div className={"service-box"}>
+      <FontAwesomeIcon className={"service-icon"} icon={faUniregistry} size="4x" />
         <h3>Statutory CIPC Registration</h3>
       </div>
     </div>
@@ -39,6 +48,9 @@ const IndexPage = () => (
 Our initial consultant with you is free of charge as we see this as a "value add service."
     </p>
     
+    <div className={"focus-box"}>
+    fa-uniregistry
+    </div>
     
   </Layout>
 )
