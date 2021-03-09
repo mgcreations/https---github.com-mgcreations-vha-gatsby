@@ -64,3 +64,28 @@ $dark-blue: #184b95;
   font-size: 1.5em;
   color: $dark-blue;
 }
+
+.statement-box {
+  color: $icon-color;
+  text-align: center;
+}
+
+.bold-text {
+  font-size: 1.5em;
+}
+
+.focus-box {
+  background-color: $icon-color;
+  padding: 50px 100px;
+  border-radius: 20px;
+  color: $primary-background;
+  text-align: center;
+}
+
+.focus-box h4 {
+  font-size: 2em;
+}
+
+.focus-box p {
+  font-size: 1.25em;
+}

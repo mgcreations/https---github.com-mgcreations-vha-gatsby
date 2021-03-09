@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.scss"
 
 import Hero from "./hero"
@@ -31,15 +32,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       
         <main className="main">{children}</main>
-        <footer
-          style={{
-            marginTop: `1rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Developed by
-          {` `}
-          <a href="https://www.mgcreations.co.za">MG Creations</a>
-        </footer>
+        <Footer />
     </>
   )
 }

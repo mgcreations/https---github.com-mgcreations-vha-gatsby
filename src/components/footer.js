@@ -5,7 +5,9 @@ import "./footer.scss"
 
 const Footer = () => (
     <footer className={"footer"}>
-        This is the footer
+        © {new Date().getFullYear()}, Developed by
+          {` `}
+          <a href="https://www.mgcreations.co.za">MG Creations</a>
     </footer>
 )
 

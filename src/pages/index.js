@@ -2,7 +2,9 @@ import React from "react"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faChartPie, faCoins, faFileContract,
+  faBraille,
+  faChartBar,
+  faChartPie, faCogs, faCoins, faFileContract,
 } from "@fortawesome/free-solid-svg-icons"
 
 import Layout from "../components/layout"
@@ -43,13 +45,24 @@ const IndexPage = () => (
         <h3>Statutory CIPC Registration</h3>
       </div>
     </div>
+    <div className={"statement-box"}>
+    <h2>
+    We are committed to assisting our clients in achieving their financial and growth objectives. 
+    </h2>
+    <h4>Our ethical business practice and commitment to our clients solidifies our position as the leaders in the accounting industry. <br/> You are paramount, your financial health is our priority. <br/><span className={"bold-text"}>How can we assist you?</span></h4>
+    </div>
     <p>
       We take time to understand the nature of your business, environment and the challenges that your business face with. We also understand that in South Africa we face changing times and we are proud to be a BEE level 1 contributor.
 Our initial consultant with you is free of charge as we see this as a "value add service."
     </p>
     
     <div className={"focus-box"}>
-    fa-uniregistry
+    <h4><FontAwesomeIcon icon={faBraille}/> Mission</h4>
+    <p>To be the best in our field of expertise and provide the client with a great overall service!</p>
+    <h4><FontAwesomeIcon icon={faCogs}/> Skills</h4>
+    <p>Our skill base not only includes intellectual knowledge but the use of the latest Tax and Accounting software.</p>
+    <h4><FontAwesomeIcon icon={faChartBar}/> Clients</h4>
+    <p>Satisfied clients thanks to our experience.</p>
     </div>
     
   </Layout>
